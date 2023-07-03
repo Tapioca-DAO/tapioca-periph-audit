@@ -23,6 +23,10 @@ __/\\\\\\\\\\\\\\\_____/\\\\\\\\\_____/\\\\\\\\\\\\\____/\\\\\\\\\\\_______/\\\\
 
 */
 
+/// @title Magnetar contract
+/// @notice Generic helper contract
+/// @dev can execute individual or combined actions on BigBang/Market/tOFT and USDO
+///      -  the `burst` method allows combining multiple calls into 1 transaction
 contract MagnetarV2 is Ownable, MagnetarV2Storage {
     using SafeERC20 for IERC20;
     using RebaseLibrary for Rebase;
