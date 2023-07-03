@@ -15,6 +15,8 @@ import "../../interfaces/ITapiocaOptions.sol";
 
 import "../MagnetarV2Storage.sol";
 
+/// @title Magnetar market module
+/// @notice Magnetar module for Singularity & BigBang type actions
 contract MagnetarMarketModule is MagnetarV2Storage {
     using SafeERC20 for IERC20;
     using RebaseLibrary for Rebase;

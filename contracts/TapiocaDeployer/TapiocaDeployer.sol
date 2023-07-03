@@ -1,7 +1,9 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.18;
 
+/// @notice Contract used to deploy other contracts
 /// @author https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/Create2.sol
+/// @dev mainly used in the SDK to precomute the deployment address
 contract TapiocaDeployer {
     /**
      * @dev Deploys a contract using `CREATE2`. The address where the contract
