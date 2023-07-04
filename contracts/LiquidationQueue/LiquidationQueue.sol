@@ -13,10 +13,10 @@ import "tapioca-sdk/dist/contracts/YieldBox/contracts/YieldBox.sol";
 
 /// @title LiquidationQueue
 /// @author @0xRektora, TapiocaDAO
-/// @notice Liquidation bidders market 
+/// @notice Liquidation bidders market
 /// @dev used in Singularity
 ///      - bidders can active and execute bids
-///      - bidders can either bid with the market's asset or stablecoins 
+///      - bidders can either bid with the market's asset or stablecoins
 contract LiquidationQueue is ILiquidationQueue {
     // ************ //
     // *** VARS *** //

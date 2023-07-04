@@ -21,7 +21,7 @@ import {IUSDOBase} from "../interfaces/IUSDO.sol";
 import "tapioca-sdk/dist/contracts/YieldBox/contracts/enums/YieldBoxTokenType.sol";
 
 /// @title Magnetar storage module
-/// @notice Magnetar storage 
+/// @notice Magnetar storage
 contract MagnetarV2Storage {
     // ************ //
     // *** VARS *** //

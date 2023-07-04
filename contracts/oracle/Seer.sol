@@ -2,7 +2,7 @@
 pragma solidity ^0.8.18;
 
 import "./OracleMulti.sol";
-import {IOracle as ITOracle} from  "../interfaces/IOracle.sol";
+import {IOracle as ITOracle} from "../interfaces/IOracle.sol";
 
 contract Seer is ITOracle, OracleMulti {
     string public _name;
