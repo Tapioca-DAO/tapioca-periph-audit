@@ -26,7 +26,7 @@ import {
     USDOLeverageModule__factory,
     USDOMarketModule__factory,
     USDOOptionsModule__factory,
-} from '../gitsub_tapioca-sdk/src/typechain/Tapioca-bar';
+} from '../gitsub_tapioca-sdk/src/typechain/tapioca-bar';
 
 import {
     OracleMock__factory,

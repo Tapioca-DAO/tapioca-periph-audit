@@ -27,7 +27,7 @@ import {
     USDOLeverageModule__factory,
     USDOMarketModule__factory,
     USDOOptionsModule__factory,
-} from '../gitsub_tapioca-sdk/src/typechain/Tapioca-Bar';
+} from '../gitsub_tapioca-sdk/src/typechain/tapioca-bar';
 import {
     ERC20WithoutStrategy__factory,
     YieldBox,
