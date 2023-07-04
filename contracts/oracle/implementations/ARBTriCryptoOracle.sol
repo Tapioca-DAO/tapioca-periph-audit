@@ -5,7 +5,7 @@ import {AggregatorV2V3Interface} from "@chainlink/contracts/src/v0.8/interfaces/
 import {Math} from "@openzeppelin/contracts/utils/math/Math.sol";
 import {FixedPointMathLib} from "solady/src/utils/FixedPointMathLib.sol";
 
-import "../../interfaces/IOracle.sol" as ITOracle;
+import {IOracle as ITOracle} from  "../../interfaces/IOracle.sol" ;
 
 interface ICurvePool {
     function coins(uint256 i) external view returns (address);
@@ -27,7 +27,7 @@ interface ICurvePool {
 
 /// @notice Courtesy of https://gist.github.com/0xShaito/f01f04cb26d0f89a0cead15cff3f7047
 /// @dev Addresses are for Arbitrum
-contract ARBTriCryptoOracle is ITOracle.IOracle {
+contract ARBTriCryptoOracle is ITOracle {
     string public _name;
     string public _symbol;
 

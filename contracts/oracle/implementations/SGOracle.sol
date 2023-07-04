@@ -2,7 +2,7 @@
 pragma solidity ^0.8.9;
 
 import {AggregatorV2V3Interface} from "@chainlink/contracts/src/v0.8/interfaces/AggregatorV2V3Interface.sol";
-import "../../interfaces/IOracle.sol" as ITOracle;
+import {IOracle} from "../../interfaces/IOracle.sol";
 
 interface IStargatePool {
     function deltaCredit() external view returns (uint256);
@@ -20,7 +20,7 @@ interface IStargatePool {
 
 /// @notice Courtesy of https://gist.github.com/0xShaito/f01f04cb26d0f89a0cead15cff3f7047
 /// @dev Addresses are for Arbitrum
-contract SGOracle is ITOracle.IOracle {
+contract SGOracle is IOracle {
     string public _name;
     string public _symbol;
 
